@@ -1,0 +1,35 @@
+body{
+    background-color: black;
+}
+
+div{
+    margin: 400px;
+}
+
+button{
+    background-color: #D6EFD8;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: #131842;
+    font-size: 30px;
+    box-shadow: 0px 0px 0px white;
+    transition-duration: 1s;
+}
+
+/* buttton:hover berfungsi untuk merubah item ketika cursos berada di atas item tersebut */
+button:hover{
+    background-color: aquamarine;
+    box-shadow: 0px 5px 7px white;
+    transform: translateY(-1em);
+}
+
+/* Button:Active untuk merubah sementara warna background color ketika diklik */
+button:active{
+    outline: none;
+}
+
+/* Button:focus untuk merubah warna background color ketika diklik */
+button:focus{
+    background-color: azure;
+}

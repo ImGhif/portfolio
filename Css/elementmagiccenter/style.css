@@ -1,0 +1,22 @@
+/* .cat{
+    height: 700px;
+    display: block;
+    margin: 0 auto;
+} */
+
+div{
+    background-color: brown;
+    height: 700px;
+}
+
+.icon  {
+    height: 100px;
+    display: inline-block;
+    text-align: center;
+}
+
+.hi{
+    display: inline-block;
+    height: 700px;
+    vertical-align: middle;
+}
