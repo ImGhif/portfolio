@@ -18,31 +18,31 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav ms-auto">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-              <a class="nav-link" href="#">About</a>
-              <a class="nav-link" href="#">Work</a>
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+              <a class="nav-link" href="#about">About</a>
+              <a class="nav-link" href="#work">Work</a>
+              <a class="nav-link" href="#contact">Contact</a>
             </div>
           </div>
         </div>
     </nav>
     <!-- Section Untuk Membuat Home -->
     <section id="home" class="home container">
-        <div class="row d-flex align-items-center">
-            <div class="col-8">
+        <div class="row d-flex align-items-center flex-md-row flex-column-reverse">
+            <div class="col-12 col-md-8">
                 <h3 class="fw-semibold">Lorem, ipsum.</h3>
                 <h1 class="fw-bold">Lorem, ipsum dolor.</h1>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque, eius.</p>
                 <a class="btn" href="images/work-1.png" download>Resume</a>
             </div>
-            <div class="col-4">
+            <div class="col-12 col-md-4 d-flex justify-content-md-end justify-content-center">
                 <img src="images/potrait.png" alt="Potrait">
             </div>
         </div>
-        <div class="arrow w-100 d-flex align-items-center flex-column mt-3>
-            <a class="text-decoration-none text-dark" href="#about">More Info</a>
+        <a href="#about" class="text-decoration-none arrow w-100 d-flex align-items-center flex-column mt-3">
+            <div class="text-dark">More Info</div>
             <img id="arrow" class="mt-2" src="images/arrow.svg" alt="icon arrow">
-        </div>
+        </a>
     </section>
     <!-- Section Untuk Membuat About -->
     <section id="about" class="about container">
@@ -81,10 +81,10 @@
     <!-- Section Untuk Membuat Work -->
     <section id="work" class="work container">
         <div class="row d-flex align-items-center gap-5">
-            <div class="col">
+            <div class="col-12 col-5">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae in, doloremque quidem iste culpa totam autem molestias beatae quod. Dolorem quibusdam a modi enim nostrum exercitationem eligendi delectus ea asperiores.
             </div>
-            <div class="col work-img">
+            <div class="col-12 col-6 work-img">
                 <div id="work-1" class="work-img-item">
                     <img src="images/work-1.png" alt="work 1">
                 </div>
@@ -100,24 +100,24 @@
     <!-- Section Untuk Membuat Contact -->
     <section id="contact" class="contact container">
         <div class="row d-flex align-items-center gap-5">
-            <div class="col">
+            <div class="col-12 col-lg-6">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et aspernatur laborum totam quam mollitia corporis ipsam voluptatem velit recusandae animi.</p>
                 <div class="row">
                     <div class="col d-flex align-items-center">
-                        <img src="images/Facebook.svg" alt="Social Media">
-                        <p>Ghifari Dzaki</p>
+                        <img class="w-25" src="images/Facebook.svg" alt="Social Media">
+                        <p class="mb-0 ms-2">Ghifari Dzaki</p>
                     </div>
                     <div class="col d-flex align-items-center">
-                        <img src="images/Instagram.svg" alt="Social Media">
-                        <p>@GhifariDzaki</p>
+                        <img class="w-25" src="images/Instagram.svg" alt="Social Media">
+                        <p class="mb-0 ms-2">@GhifariDzaki</p>
                     </div>
                     <div class="col d-flex align-items-center">
-                        <img src="images/linkedin.svg" alt="linkedin icon">
-                        <p>@GhifariDzaki</p>
+                        <img class="w-25" src="images/linkedin.svg" alt="linkedin icon">
+                        <p class="mb-0 ms-2">@GhifariDzaki</p>
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col-12 col-lg-5">
                 <form class="contactForm" onsubmit="onFormSub(event)">
                     <div class="mb-3">
                       <label for="inpEmail" class="form-label">Email Address</label>
