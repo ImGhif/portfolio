@@ -11,3 +11,23 @@ function toggleDetail(a) {
     const detail = $(item).children(".about-exp-item-detail")
     $(detail).slideToggle()
 }
+
+function onFormSub(e){
+    e.preventDefault()
+    const email = $("#inpEmail")
+    const subject = $("#inpSubject")
+    const message = $("#inpMessage")
+
+    if(!$(email).val()){
+        alert("Email is required")
+    } else if(!$(subject).val()){
+        alert("Subject is required")
+    } else if(!$(message).val()){
+        alert("Message is required")
+    } else{
+        alert("Form Submitted")
+        $(email).val("")
+        $(subject).val("")
+        $(message).val("")
+    }
+}
